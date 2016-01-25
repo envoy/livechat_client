@@ -6,7 +6,7 @@ module LiveChat
       end
 
       def get(params={})
-        @client.get "#{@path}/tags}"
+        @client.get "#{@path}/tags"
       end
     end
   end
